@@ -70,9 +70,7 @@ void backtrack(vector<vector<int>> &puzzle, stack<pair<int, int>> &unsolved, sta
         filled.pop();
         backtrack(puzzle, unsolved, filled);
     }
-    } else {
-        cout << "stack empty" << endl;
-    }
+    } 
 
 }
 int main() {
